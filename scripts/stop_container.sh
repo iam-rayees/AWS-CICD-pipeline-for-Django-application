@@ -1,4 +1,5 @@
 #!/bin/bash
+#Written by Mohd Rayees
 containerIds=$(docker ps -aq)
 
 if [[ ! -z "$containerIds" ]]; then
